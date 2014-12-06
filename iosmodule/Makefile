@@ -48,6 +48,7 @@ export ROOT	:= $(CURDIR)
 
 
 all:
+	@[ -d $(BIN) ] || mkdir -p $(BIN)
 	@[ -d $(BUILD) ] || mkdir -p $(BUILD)
 	@$(MAKE) -C $(BUILD) --no-print-directory -f $(CURDIR)/Makefile BUILDING=all
 clean:
