@@ -1,4 +1,5 @@
 Custom IOS module & tester for Wii   by neimod
+Some minor modifications by xerpi
 ----------------------------------------------
 
 This package contains the necessary basic tools and project files needed to create a custom IOS module and interact with it. This is perfect for running test code on the Wii's IOS system.
